@@ -27,11 +27,7 @@ div.desc {
     left: 50%;
     transform: translate(-50%, -50%);
     width: 274px;
-}
-
-* {
-    box-sizing: border-box;
-    
+    font-size: 20px;
 }
 
 .responsive {
