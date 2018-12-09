@@ -30,10 +30,10 @@ body,html {
 }
 
 #Bio_Photo{
-   height: 100px;
-   width: 100px; 
+   height: 150px;
+   width: 200px; 
    float: left;
-   padding-right: 5px;
+   margin-right: 25px;
 }
 p{
     color: #777777;
@@ -79,7 +79,7 @@ p{
 
 #page_links a {
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 18px;
+    font-size:18px;
     color: #777777;
     border-left: solid 1px #cccccc;
     display: inline-block;
@@ -89,18 +89,18 @@ p{
 #page_links a:first-child{
     border: none;
 }
-/*why are you not working??????*/
+
 
 a:link { text-decoration: none; }
 
-#page_links a:visited, a:visited { color: #053f3c }
+#page_links a:visited, a:visited { color: #34113F }
 
 #page_links a:hover, a:hover {
-    background-color: #4aaaa5;
+    background-color: #BEB7DF;
     color: #fff;
 }
 
-#page_links a:active, a:active { color:pink; }
+#page_links a:active, a:active { color: #777777 }
 
 
 
@@ -155,9 +155,12 @@ footer.footer {
     background-color:#666666;
     color: #fff;
     height: 50px;
+    font-size: 8px;
+    
     border-top: solid #4aaaa5 8px;
     text-align: center;
-    vertical-align: bottom;
+    vertical-align: text-bottom;
+    
 }    
 
 
